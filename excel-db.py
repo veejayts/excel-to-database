@@ -189,6 +189,7 @@ def dataBaseInteract(db_name, res, create_statement, insert_statements):
 
     except Exception:
         print("Something went wrong...")
+        print("Hint: If the database file already exists in the directory with the same name, it can raise an error.")
 
     else:
         print("Converted into DB successfully")
