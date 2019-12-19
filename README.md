@@ -15,6 +15,7 @@ This program uses one external module and one in-built module:
 * All data to be entered normally under each column
 
 # Misc. Info
-To use this program, the user should have the excel file to be placed in the same directory as the python file is present.
-The only file formats supported are *xlsx / xlsm / xltx / xltm*.
-The program will output the database file in the same directory as the python file is present.
+* To use this program, the user should have the excel file to be placed in the same directory as the python file is present.
+* The only file formats supported are *xlsx / xlsm / xltx / xltm*.
+* The program will output the database file in the same directory as the python file is present.
+* Currently only the first worksheet will be converted into corresponding database
