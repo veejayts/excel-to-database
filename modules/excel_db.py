@@ -14,10 +14,6 @@ class ExcelToDb(object):
                 Call function which creates DB file and inserts the data into the DB
         """
 
-        # xl_file_name = input("Enter the name of the excel file which is to be converted (do not type the extension): ")
-
-        # db_name = input("Enter the name of the DB file: ")
-
         print("Reading the excel file")
         res = self.readData(xl_file_name)
 

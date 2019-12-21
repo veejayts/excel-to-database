@@ -7,7 +7,7 @@ class GUI:
     def __init__(self, master):
         self.master = master
         self.title = Label(text="Excel to Database converter")
-        self.file_name_label = Label(text="Enter File name")
+        self.file_name_label = Label(text="Enter Excel file name")
         self.file_entry = Entry()
         self.db_name_label = Label(text="Enter Database name")
         self.db_entry = Entry()
